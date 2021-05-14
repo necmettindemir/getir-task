@@ -30,11 +30,12 @@ will be as shown below.
 The following body content can be sent by some API test tools such as 
 Postman, Insomnia, etc. to API method. 
 
-{ "startDate": "2017-01-01", 
+{ 
+  "startDate": "2017-01-01", 
   "endDate": "2017-12-31",  
   "minCount": 100, 
   "maxCount": 300 
- }
+}
 
 
 The response will be received as below
