@@ -70,18 +70,16 @@ The response will be received as below
 
 At first, run "http://<base-url>/api/TestGetData/10/20" in address bar of chrome.
 
+For this study the link below is temporarily is base url.
+http://ec2-3-8-161-245.eu-west-2.compute.amazonaws.com:4001/ 
 
 
 // can be used in chrome developer tools to test for GET request
-
-
 const response = await fetch('http://<base-url>/api/TestGetData/10/20')
 console.log(await response.json())
 
 
 // can be used in chrome developer tools to test for POST request 
-
-
 let r = await fetch('http://<base-url>/api/ListDataByFilter', {
       method: "POST",
       headers: {
